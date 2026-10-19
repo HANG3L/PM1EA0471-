@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Paleta modo claro -->
+    <color name="primario">#4355B9</color>
+    <color name="sobre_primario">#FFFFFF</color>
+    <color name="primario_contenedor">#DEE0FF</color>
+    <color name="sobre_primario_contenedor">#00105C</color>
+    <color name="secundario">#5B5D72</color>
+    <color name="sobre_secundario">#FFFFFF</color>
+    <color name="secundario_contenedor">#E0E1F9</color>
+    <color name="sobre_secundario_contenedor">#181A2C</color>
+    <color name="error">#BA1A1A</color>
+    <color name="sobre_error">#FFFFFF</color>
+    <color name="error_contenedor">#FFDAD6</color>
+    <color name="sobre_error_contenedor">#410002</color>
+
+    <color name="fondo">#F3F4FA</color>
+    <color name="tarjeta">#FFFFFF</color>
+    <color name="tarjeta_alta">#ECEDF6</color>
+    <color name="texto">#1B1B21</color>
+    <color name="texto_secundario">#46464F</color>
+    <color name="superficie_variante">#E3E1EC</color>
+    <color name="borde">#767680</color>
+
+    <!-- Colores de alertas -->
+    <color name="alerta_exito">#2E7D32</color>
+    <color name="alerta_exito_fondo">#DDF2DF</color>
+    <color name="alerta_error">#BA1A1A</color>
+    <color name="alerta_error_fondo">#FFDAD6</color>
+    <color name="alerta_aviso">#A15C00</color>
+    <color name="alerta_aviso_fondo">#FFE0B8</color>
+    <color name="alerta_info">#4355B9</color>
+    <color name="alerta_info_fondo">#DEE0FF</color>
+    <color name="sobre_alerta">#FFFFFF</color>
+</resources>

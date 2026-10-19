@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">PM1EA0471</string>
+
+    <!-- Titulos -->
+    <string name="titulo_registro">Nuevo contacto</string>
+    <string name="titulo_editar">Editar contacto</string>
+    <string name="titulo_lista">Contactos</string>
+
+    <!-- Formulario -->
+    <string name="foto_contacto">Foto del contacto</string>
+    <string name="datos_contacto">Datos del contacto</string>
+    <string name="camara">Cámara</string>
+    <string name="galeria">Galería</string>
+    <string name="pais">País</string>
+    <string name="agregar_pais">Agregar país</string>
+    <string name="nombre">Nombre completo</string>
+    <string name="ayuda_nombre">Solo letras y espacios</string>
+    <string name="telefono">Teléfono</string>
+    <string name="ayuda_telefono">8 dígitos</string>
+    <string name="nota">Nota</string>
+
+    <!-- Botones -->
+    <string name="guardar_contacto">Guardar contacto</string>
+    <string name="ver_contactos">Ver contactos</string>
+    <string name="guardar_cambios">Guardar cambios</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="guardar">Guardar</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="nuevo">Nuevo</string>
+    <string name="volver">Volver</string>
+
+    <!-- Acciones de cada contacto -->
+    <string name="llamar">Llamar</string>
+    <string name="compartir">Compartir</string>
+    <string name="foto">Foto</string>
+    <string name="editar">Editar</string>
+    <string name="eliminar">Eliminar</string>
+
+    <!-- Lista vacia -->
+    <string name="lista_vacia">Aún no hay contactos</string>
+    <string name="lista_vacia_ayuda">Toca «Nuevo» para registrar tu primer contacto.</string>
+
+    <string name="buscar">Buscar por nombre o teléfono</string>
+    <string name="sin_resultados">Sin resultados</string>
+    <string name="sin_resultados_ayuda">Prueba con otro nombre o número.</string>
+
+    <!-- Dialogo de pais -->
+    <string name="nuevo_pais">Nuevo país</string>
+    <string name="nuevo_pais_ayuda">Escribe el nombre y su código. Ejemplo: Colombia (+57)</string>
+</resources>

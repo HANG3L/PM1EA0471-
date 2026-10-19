@@ -1,0 +1,81 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Tema base: los colores cambian solos entre modo claro (values) y oscuro (values-night) -->
+    <style name="Base.Theme.PM1EA0471" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primario</item>
+        <item name="colorOnPrimary">@color/sobre_primario</item>
+        <item name="colorPrimaryContainer">@color/primario_contenedor</item>
+        <item name="colorOnPrimaryContainer">@color/sobre_primario_contenedor</item>
+        <item name="colorSecondary">@color/secundario</item>
+        <item name="colorOnSecondary">@color/sobre_secundario</item>
+        <item name="colorSecondaryContainer">@color/secundario_contenedor</item>
+        <item name="colorOnSecondaryContainer">@color/sobre_secundario_contenedor</item>
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/sobre_error</item>
+        <item name="colorErrorContainer">@color/error_contenedor</item>
+        <item name="colorOnErrorContainer">@color/sobre_error_contenedor</item>
+
+        <item name="android:colorBackground">@color/fondo</item>
+        <item name="colorOnBackground">@color/texto</item>
+        <item name="colorSurface">@color/tarjeta</item>
+        <item name="colorOnSurface">@color/texto</item>
+        <item name="colorSurfaceVariant">@color/superficie_variante</item>
+        <item name="colorOnSurfaceVariant">@color/texto_secundario</item>
+        <item name="colorOutline">@color/borde</item>
+        <item name="colorSurfaceContainerLowest">@color/tarjeta</item>
+        <item name="colorSurfaceContainerLow">@color/tarjeta</item>
+        <item name="colorSurfaceContainer">@color/tarjeta</item>
+        <item name="colorSurfaceContainerHigh">@color/tarjeta</item>
+        <item name="colorSurfaceContainerHighest">@color/tarjeta_alta</item>
+    </style>
+
+    <style name="Theme.PM1EA0471" parent="Base.Theme.PM1EA0471" />
+
+    <!-- Formas -->
+    <style name="FormaCircular">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="FormaRedondeada">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <!-- Tarjetas de las pantallas -->
+    <style name="Tarjeta" parent="Widget.Material3.CardView.Filled">
+        <item name="cardBackgroundColor">?attr/colorSurface</item>
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="strokeWidth">0dp</item>
+    </style>
+
+    <!-- Botones con icono arriba y texto abajo (acciones de cada contacto) -->
+    <style name="BotonAccion" parent="Widget.Material3.Button.TextButton.Icon">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:maxLines">1</item>
+        <item name="iconGravity">top</item>
+        <item name="iconPadding">2dp</item>
+        <item name="iconSize">22dp</item>
+    </style>
+
+    <!-- Botones grandes de las pantallas -->
+    <style name="BotonPrincipal" parent="Widget.Material3.Button.Icon">
+        <item name="android:layout_height">56dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="BotonSecundario" parent="Widget.Material3.Button.OutlinedButton.Icon">
+        <item name="android:layout_height">56dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/raiz"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorBackground"
+    android:orientation="vertical"
+    tools:context=".vista.EditarContactoActivity">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/barra"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:navigationContentDescription="@string/volver"
+        app:navigationIcon="@drawable/ic_atras"
+        app:title="@string/titulo_editar"
+        app:titleTextAppearance="@style/TextAppearance.Material3.HeadlineSmall" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="16dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="20dp">
+
+            <include layout="@layout/formulario_contacto" />
+
+            <Button
+                android:id="@+id/btnGuardar"
+                style="@style/BotonPrincipal"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:text="@string/guardar_cambios"
+                app:icon="@drawable/ic_guardar" />
+
+            <Button
+                android:id="@+id/btnCancelar"
+                style="@style/BotonSecundario"
+                android:layout_width="match_parent"
+                android:layout_marginTop="8dp"
+                android:text="@string/cancelar" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>
